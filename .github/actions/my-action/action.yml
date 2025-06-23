@@ -6,6 +6,5 @@ runs:
 
   steps:
     - name: Hello World
-      run: |
-        echo "Hello, world!" >> hola.txt
-        shell: bash
+      run: echo "Hello, world!"
+      shell: bash
