@@ -8,3 +8,4 @@ runs:
     - name: Hello World
       run: |
         echo "Hello, world!" >> hola.txt
+        shell: bash
