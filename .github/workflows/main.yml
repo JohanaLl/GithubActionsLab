@@ -9,5 +9,5 @@ jobs:
     steps:
         - name: ls
           run: |
-            echo "Hello, world!" >> hola.txt
+            echo "Hello, world from github actions!" >> hola.txt
             cat hola.txt
