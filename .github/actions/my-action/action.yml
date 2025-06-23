@@ -1,0 +1,10 @@
+name: "My Action"
+description: "Test My Action"
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: Hello World
+      run: |
+        echo "Hello, world!" >> hola.txt
